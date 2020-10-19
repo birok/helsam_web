@@ -227,7 +227,7 @@ button.btn {
 	line-height: 52px;
 	font-size: 14px;
 	font-weight: 600;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	margin-top: 10px;
 	color:#ab977d;;
 	border: solid transform 1px;
@@ -361,7 +361,7 @@ h2 {
 	font-weight: 600;
 	position: relative;
 	margin-bottom: 15px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	margin-top: 15px;
 }
 
@@ -372,7 +372,6 @@ h2 {
 	font-weight: 600;
 	position: relative;
 	margin-bottom: 15px;
-	text-transform: uppercase;
 	margin-top: 15px;
 }
 
@@ -400,7 +399,7 @@ h4 {
 h5 {
 	font-size: 15px;
 	font-weight: 700;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	margin: 0;
 	line-height: normal;
 	color: #ab977d;
@@ -1107,7 +1106,7 @@ header .right_bt .btn {
 	font-size: 14px;
 	color: #000;
 	font-weight: 600;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 #navbar_menu ul ul {
@@ -1804,7 +1803,7 @@ section.dottad_star_bg {
 
 .list_2_head {
 	color: #000;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	margin: 0;
 }
 
@@ -1880,7 +1879,7 @@ section.dottad_star_bg {
 }
 
 .heading_testi h4 {
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	margin-bottom: 0;
 }
 
@@ -1917,7 +1916,7 @@ section.dottad_star_bg {
 
 .member_heading h4 {
 	margin-bottom: 0;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 .team_section {
@@ -3009,7 +3008,7 @@ span.skill {
 .blog_section p.comm_head {
 	font-weight: 600;
 	font-size: 14px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 .blog_section p.comm_head span {
@@ -3369,7 +3368,7 @@ footer h4 {
 footer h2 {
 	color: #eee;
 	font-size: 14px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-weight: 700;
 	margin-bottom: 35px;
 	margin-top: 0;
@@ -4613,7 +4612,7 @@ footer ul.social_icons {
 	font-size: 14px;
 	color: #eee;
 	font-weight: 600;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 .menu_bottom_section .search_icon {
