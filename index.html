@@ -43,7 +43,7 @@
 <!-- header -->
 <header id="default_header" class="header_style_1">
   <!-- header bottom -->
-  <div class="header_bottom">
+ <!-- <div class="header_bottom">-->
     <div class="container">
       <div class="row">
         <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
@@ -73,10 +73,43 @@
         </div>
       </div>
     </div>
-  </div>
+ <!-- </div>-->
   <!-- header bottom end -->
 </header>
 <!-- end header -->
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="row">
+    <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
+        <a class="navbar-brand logo" href="#"><div class="logo"><h2>Helsam</h2></div></a>
+    </div>
+
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12"></div>
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Productos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contacto</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+
+
 <!-- section -->
 <div id="slider" class="section main_slider">
   <div class="container-fuild">
@@ -552,7 +585,7 @@
       </div>
 
       <div class="cprt">
-        <p>Helsam ©Derechos de autor</p>
+        <p>Derechos de autor ©Helsam</p>
       </div>
     </div>
   </div>
@@ -584,7 +617,7 @@
          // This example adds a marker to indicate the position of Bondi Beach in Sydney,
          // Australia.
          function initMap() {
-           var map = new google.maps.Map(document.getElementById('map'), {
+           var map = new google.maps.Map(document.getElementById('map'),
              zoom: 11,
              center: {lat: 40.645037, lng: -73.880224},
          styles: [

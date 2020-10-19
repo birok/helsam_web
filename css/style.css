@@ -37,12 +37,9 @@
     16. FOOTER
 	17. CUSTOM
 		
-	-------------------------------------------------------------------*/
-
-
-/*------------------------------------------------------------------
-		1. IMPORT FONTS
-	-------------------------------------------------------------------*/
+	-------------------------------------------------------row------------
+		1. IMPORT FONTScss
+--------*/
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600,700,900);
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
@@ -61,12 +58,12 @@
 		3. BASIC
 	-------------------------------------------------------------------*/
 
-* {
+/* {
 	margin: 0;http://127.0.0.1:5500/index.html
 	padding: 0;
 	outline: none !important;
 	box-sizing: border-box;
-}
+}*/
 
 html,
 body {
@@ -178,7 +175,7 @@ h5 a,
 h6 a {
 	color: #ab977d;;
 	text-decoration: none!important;
-	opacity: 1
+	opacity: 1;
 }
 
 ol,
@@ -332,6 +329,11 @@ a.btn.white_btn {
 .semi_bold {
 	font-weight: 600;
 }
+
+.row_padding {
+	padding-left: 0%;
+}
+
 
 .lead {
 	font-size: 18px;
@@ -973,11 +975,11 @@ header .right_bt .btn {
 	float: left;
 	margin: 19px 0 19px;
 	position: relative;
-	left: 0;
+	padding-left: 0;
 }
 
 .logo img {
-	height: 80px;
+	height: 800px;
 }
 
 .header_style_1 .header_top {
