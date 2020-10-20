@@ -503,8 +503,8 @@ a:focus {
 	width: 100%;
 }
 
-.container {
-	width: 1200px;
+.container {/*Tamaño del contenedor*/
+	width: 1500px;
 	max-width: 1200px;
 }
 
@@ -882,7 +882,7 @@ hr.dottad_border {
 }
 
 .full_layout_without_container {
-	padding: 80px 15px 50px;
+	padding: 800px 15px 50px;
 }
 
 .opacity_half_color {
@@ -973,9 +973,10 @@ header .right_bt .btn {
 
 .logo {
 	float: left;
-	margin: 19px 0 19px;
+	/*argin: 19px 0 19px;*/
 	position: relative;
-	padding-left: 0;
+	padding: 17px 50px 17px 50px;
+	background: black;
 }
 
 .logo img {
@@ -1032,7 +1033,7 @@ header .right_bt .btn {
 
 .menu_side {
 	float: right;
-	width: auto;
+	max-width: 100%;
 }
 
 .main_menu div#navbar_menu ul li a i {
@@ -4825,4 +4826,9 @@ footer ul.social_icons {
 
 .product_detail_side.detail_style1 {
 	margin-top: 35px;
+}
+
+.style_menu{
+	background: black; 
+	padding: 5px 165px 5px 166px;
 }
