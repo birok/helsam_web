@@ -975,7 +975,7 @@ header .right_bt .btn {
 	float: left;
 	/*argin: 19px 0 19px;*/
 	position: relative;
-	padding: 17px 50px 17px 50px;
+	padding: 0px 50px 0px 50px;
 	background: black;
 }
 
